@@ -1,6 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import TargetAudience from "@/components/TargetAudience";
 import HowItWorks from "@/components/HowItWorks";
+import Benefits from "@/components/Benefits";
 
 const Index = () => {
   return (
@@ -8,6 +9,7 @@ const Index = () => {
       <HeroSection />
       <TargetAudience />
       <HowItWorks />
+      <Benefits />
     </div>
   );
 };
